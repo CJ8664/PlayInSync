@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+    android:background="@color/red_light">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome to PlayInSync"
+        android:id="@+id/connect_primary_message"
+        android:textStyle="bold|normal"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use your Google account to sign-in.\n\nWe promise we won't use any of your information without your permission"
+        android:id="@+id/connect_secondary_message"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/connect_primary_message"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textColor="#ffffffff" />
+
+    <ImageView
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:id="@+id/logo"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50sp"
+        android:text="Sign in with Google+"
+        android:id="@+id/google_sign_in_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/social_button_background"
+        android:layout_margin="8dp"
+        android:textColor="@color/red_light"
+        android:textStyle="bold|normal"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/icon_gplus"
+        android:paddingLeft="8dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Getting your details..."
+        android:id="@+id/getting_details_tv"
+        android:textColor="#ffffffff"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:visibility="invisible"
+        android:layout_above="@+id/getting_details_pb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp" />
+
+    <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        app:spb_sections_count="4"
+        app:spb_color="#FFFFFF"
+        app:spb_speed="1.0"
+        app:spb_interpolator = "spb_interpolator_acceleratedecelerate"
+        app:spb_stroke_width="4dp"
+        app:spb_stroke_separator_length="4dp"
+        app:spb_reversed="false"
+        app:spb_mirror_mode="false"
+        android:id="@+id/getting_details_pb"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+
+</RelativeLayout>

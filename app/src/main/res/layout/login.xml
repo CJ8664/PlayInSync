@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/signin">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/facebook_login_button"
+        android:src="@drawable/facebook"
+        android:maxHeight="60dp"
+        android:maxWidth="60dp"
+        android:minHeight="60dp"
+        android:minWidth="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/google_login_button"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/google_login_button"
+        android:src="@drawable/google"
+        android:maxHeight="60dp"
+        android:maxWidth="60dp"
+        android:minHeight="60dp"
+        android:minWidth="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/twitter_login_button"
+        android:src="@drawable/twitter"
+        android:maxHeight="60dp"
+        android:maxWidth="60dp"
+        android:minHeight="60dp"
+        android:minWidth="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sign In"
+        android:id="@+id/textView"
+        android:layout_above="@+id/google_login_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"/>
+</RelativeLayout>

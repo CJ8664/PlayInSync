@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\PlayInSync\Mobile\PlayInSync\library\touchListView\src\main\res"><file path="D:\PlayInSync\Mobile\PlayInSync\library\touchListView\src\main\res\values\cwac_touchlist_attrs.xml" qualifiers=""><declare-styleable name="TouchListView">
+		<attr format="dimension" name="normal_height"/>
+		<attr format="dimension" name="expanded_height"/>
+		<attr format="reference" name="grabber"/>
+		<attr format="color" name="dragndrop_background"/>
+    <attr name="remove_mode">
+			<enum name="none" value="-1"/>
+			<enum name="fling" value="0"/>
+			<enum name="slide" value="1"/>
+			<enum name="slideRight" value="1"/>
+			<enum name="slideLeft" value="2"/>
+		</attr>
+	</declare-styleable></file></source><source path="D:\PlayInSync\Mobile\PlayInSync\library\touchListView\build\generated\res\rs\debug"/><source path="D:\PlayInSync\Mobile\PlayInSync\library\touchListView\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="D:\PlayInSync\Mobile\PlayInSync\library\touchListView\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="TouchListView"><attr format="dimension" name="normal_height"/><attr format="dimension" name="expanded_height"/><attr format="reference" name="grabber"/><attr format="color" name="dragndrop_background"/><attr name="remove_mode"><enum name="none" value="-1"/><enum name="fling" value="0"/><enum name="slide" value="1"/><enum name="slideRight" value="1"/><enum name="slideLeft" value="2"/></attr></declare-styleable></configuration></mergedItems></merger>

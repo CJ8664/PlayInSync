@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <com.cjapps.playinsync.PinnedSectionListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false"
+        android:divider="#ffebebeb"
+        android:dividerHeight="2dp"
+        android:id="@android:id/list"
+        android:choiceMode="multipleChoiceModal"
+        android:textFilterEnabled="true"
+        android:drawSelectorOnTop="false"
+        android:scrollingCache="true"
+        android:scrollbarStyle="outsideInset"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sorry no contacts :("
+        android:id="@+id/no_contact_tv"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|normal"
+        android:visibility="gone" />
+
+</RelativeLayout>

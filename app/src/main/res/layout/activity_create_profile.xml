@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/create_profile_parent_relative_layout"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_picture_imagview"
+            android:src="@drawable/com_facebook_profile_default_icon"
+            android:scaleType="fitXY"
+            android:layout_margin="8dp"
+            android:layout_gravity="center" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5f5f5"
+            android:paddingBottom="8dp"
+            android:id="@+id/now_playing_view"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="NAME"
+                android:id="@+id/name_label_tv"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold|normal"
+                android:textColor="@color/orange_dark"
+                android:paddingTop="8dp"
+                android:paddingLeft="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:id="@+id/splash_logo_text"
+                android:layout_below="@+id/name_label_tv"
+                android:layout_centerHorizontal="true"
+                android:background="@color/orange_dark"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="32dp"
+                android:id="@+id/name_textview"
+                android:layout_below="@+id/splash_logo_text"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="18sp"
+                android:layout_marginLeft="16dp"
+                android:layout_toLeftOf="@+id/edit_name_imagebutton"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="2dp"
+                android:textStyle="bold|normal"
+                android:layout_marginRight="8dp"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:id="@+id/edit_name_imagebutton"
+                android:layout_below="@+id/splash_logo_text"
+                android:layout_alignRight="@+id/splash_logo_text"
+                android:layout_alignEnd="@+id/splash_logo_text"
+                android:background="@drawable/ic_action_edit"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="PHONE NUMBER"
+                android:id="@+id/phone_number_label"
+                android:textStyle="bold|normal"
+                android:textColor="@color/orange_dark"
+                android:paddingTop="8dp"
+                android:paddingLeft="8dp"
+                android:textSize="14sp"
+                android:layout_below="@+id/name_textview"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:id="@+id/phone_number_separator"
+                android:background="@color/orange_dark"
+                android:layout_below="@+id/phone_number_label"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="4dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/phone_number_edittext"
+                android:layout_below="@+id/phone_number_separator"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toLeftOf="@+id/submit_phone_number_button"
+                android:layout_marginRight="4dp"
+                android:hint="Phone Number"/>
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                android:id="@+id/submit_phone_number_button"
+                android:textSize="16sp"
+                android:layout_below="@+id/phone_number_separator"
+                android:layout_alignRight="@+id/splash_logo_text"
+                android:layout_alignEnd="@+id/splash_logo_text"
+                android:layout_marginBottom="8dp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="32dp"
+                android:id="@+id/playlist_aa1"
+                android:layout_below="@+id/splash_logo_text"
+                android:layout_toLeftOf="@+id/edit_name_imagebutton"
+                android:background="#ffe1e1e1"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="8dp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Using your phone number we can quickly suggest friends from your contacts"
+            android:id="@+id/phone_number_info"
+            android:textColor="#ff525252"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp" />
+    </LinearLayout>
+</ScrollView>
+

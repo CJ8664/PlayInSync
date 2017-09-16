@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="148dp" android:layout_height="wrap_content"
+    android:background="@drawable/card_background">
+
+    <ImageView
+        android:layout_width="148dp"
+        android:layout_height="148dp"
+        android:id="@+id/album_grid_album_art"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/default_album_art"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="24dp"
+        android:text="New Text"
+        android:id="@+id/album_grid_album_name"
+        android:layout_below="@+id/album_grid_album_art"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_toLeftOf="@+id/imageButton" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:id="@+id/imageButton"
+        android:background="@drawable/ic_menu_overflow_dark_normal"
+        android:layout_below="@+id/album_grid_album_art"
+        android:layout_alignRight="@+id/album_grid_album_art"
+        android:layout_alignEnd="@+id/album_grid_album_art" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/album_grid_album_artist"
+        android:layout_below="@+id/album_grid_album_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="8dp"
+        android:textSize="12dp"
+        android:layout_marginBottom="8dp"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/album_grid_album_artist"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="4dp"
+        android:src="#ffcfcfcf"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp" />
+</RelativeLayout>

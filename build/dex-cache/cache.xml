@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Chirag Jain\Desktop\PlayInSync\Mobile\PlayInSync\app\build\pre-dexed\debug\support-v4-19.1.0-ab88a78da8f334a38ebdfad805dcafab5bc457f8.jar"
+        jar="D:\Softwares\ANDROID\android-sdk-windows\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="C:\Users\Chirag Jain\Desktop\PlayInSync\Mobile\PlayInSync\app\build\pre-dexed\debug\classes-aa7984d0fe4d8a94cfc3f6776c1699aa9d931967.jar"
+        jar="C:\Users\Chirag Jain\Desktop\PlayInSync\Mobile\PlayInSync\build\exploded-aar\com.google.android.gms\play-services\4.3.23\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7676c0cb230efa6ac41c47867d372ed5913029d4"/>
+    <item
+        dex="C:\Users\Chirag Jain\Desktop\PlayInSync\Mobile\PlayInSync\app\build\pre-dexed\debug\classes-81c1f6539fd1f7344f6263cd2d06232a4ecf11fb.jar"
+        jar="C:\Users\Chirag Jain\Desktop\PlayInSync\Mobile\PlayInSync\build\exploded-aar\PlayInSync.libs\facebook\unspecified\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4dbcbc454a47038b388b2fd5b3e79177e20a5559"/>
+    <item
+        dex="C:\Users\Chirag Jain\Desktop\PlayInSync\Mobile\PlayInSync\app\build\pre-dexed\debug\support-v13-19.1.0-6b45d5193d3d8140176ca8eb800f27a94a487ffa.jar"
+        jar="D:\Softwares\ANDROID\android-sdk-windows\extras\android\m2repository\com\android\support\support-v13\19.1.0\support-v13-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="6b852a232f642c75a7fdfc7212b841b8c8f8959c"/>
+    <item
+        dex="C:\Users\Chirag Jain\Desktop\PlayInSync\Mobile\PlayInSync\app\build\pre-dexed\debug\classes-0dc9f97d1d3dcde37c5f572e44667b1ea17785c2.jar"
+        jar="C:\Users\Chirag Jain\Desktop\PlayInSync\Mobile\PlayInSync\build\exploded-aar\com.github.gabrielemariotti.cards\library\1.7.3\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="920a5af52d11dcd83341cecdd8b628cd8db17e56"/>
+    <item
+        dex="C:\Users\Chirag Jain\Desktop\PlayInSync\Mobile\PlayInSync\app\build\pre-dexed\debug\bolts-70f75263f3319aba34fea73f27609fe75724a99a.jar"
+        jar="C:\Users\Chirag Jain\Desktop\PlayInSync\Mobile\PlayInSync\build\exploded-aar\PlayInSync.libs\facebook\unspecified\libs\bolts.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="1e5ba33c837d05dcca9dc40a0ab458f8599d7aef"/>
+
+</pre-dex-items>

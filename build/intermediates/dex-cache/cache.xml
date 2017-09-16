@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\exploded-aar\com.sothree.slidinguppanel\library\3.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c1200ab3b93b8f42c0878b00eb79a84c1f112cf7">
+        <dex dex="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\pre-dexed\debug\classes-0e9df28faee4c7821283b32aa86351f2f31e7aa2.jar" />
+    </item>
+    <item
+        jar="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.4.52\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3dfdf1db5ce5ea2999a5dcde8c8e650b02660059">
+        <dex dex="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\pre-dexed\debug\classes-2f50520beac027820b9bd4bce93ff61368e0e324.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chirag Jain\.gradle\caches\modules-2\files-2.1\com.nhaarman.listviewanimations\library\2.6.0\59351ccb0a1631d30358f6a92749a072f2df7602\library-2.6.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="59351ccb0a1631d30358f6a92749a072f2df7602">
+        <dex dex="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\pre-dexed\debug\library-2.6.0-255ea22e64a90adf43f9aac15028ef8144148a97.jar" />
+    </item>
+    <item
+        jar="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\exploded-aar\PlayInSync.library\twitter\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a6166a6412e30d4b6ae68d85ab7e8972bc4ec7e9">
+        <dex dex="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\pre-dexed\debug\classes-c0a1a21e1c258a6088549611429090cfa6d56028.jar" />
+    </item>
+    <item
+        jar="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\exploded-aar\PlayInSync.library\facebook\unspecified\libs\bolts.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1e5ba33c837d05dcca9dc40a0ab458f8599d7aef">
+        <dex dex="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\pre-dexed\debug\bolts-cbaf71087bcf9c3a242ecd2b4b4d4d48350e4fcd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chirag Jain\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\pre-dexed\debug\library-2.4.0-1cfba7b33d21cd4800e27da0b8056e62d1eb1305.jar" />
+    </item>
+    <item
+        jar="D:\Softwares\ANDROID\android-sdk-windows\extras\android\m2repository\com\android\support\support-v13\19.1.0\support-v13-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6b852a232f642c75a7fdfc7212b841b8c8f8959c">
+        <dex dex="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\pre-dexed\debug\support-v13-19.1.0-6b45d5193d3d8140176ca8eb800f27a94a487ffa.jar" />
+    </item>
+    <item
+        jar="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\exploded-aar\PlayInSync.library\facebook\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8ba8cdea42d65f7aa63652737495fcf076e5fa28">
+        <dex dex="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\pre-dexed\debug\classes-9b31d46f712049ffdbdf8dd8c7d4a36f8c4f2c05.jar" />
+    </item>
+    <item
+        jar="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\exploded-aar\PlayInSync.library\touchListView\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="23a41bb2fc370d762a43fcdcf7be685d1f388715">
+        <dex dex="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\pre-dexed\debug\classes-21a28fc475a6c1961bee19982cbb9992d0c52058.jar" />
+    </item>
+    <item
+        jar="D:\Softwares\ANDROID\android-sdk-windows\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-ab88a78da8f334a38ebdfad805dcafab5bc457f8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chirag Jain\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.3.4\54ffde537682aea984c22fbcf0106f21397c5f9b\httpmime-4.3.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="54ffde537682aea984c22fbcf0106f21397c5f9b">
+        <dex dex="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\pre-dexed\debug\httpmime-4.3.4-435e7fb38785000892aa76ba915df8390f8abd24.jar" />
+    </item>
+    <item
+        jar="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\library\1.8.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="332683f886584a5be900eb08d202e209738d5269">
+        <dex dex="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\pre-dexed\debug\classes-20904d761d8339659a059e52df6e864f0f3ca35f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chirag Jain\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="31fbbff1ddbf98f3aa7377c94d33b0447c646b6e">
+        <dex dex="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\pre-dexed\debug\httpcore-4.3.2-968bb7a710dc10d28766ad29110f1afc0901df38.jar" />
+    </item>
+    <item
+        jar="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\exploded-aar\com.github.castorflex.smoothprogressbar\library\0.5.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d274491a2b8a8b3078842cc78c7a06846112451f">
+        <dex dex="D:\PlayInSync\Mobile\PlayInSync\app\build\intermediates\pre-dexed\debug\classes-e450330bc1acd21337e30e816d7371ec53fd6bce.jar" />
+    </item>
+
+</items>

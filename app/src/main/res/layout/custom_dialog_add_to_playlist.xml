@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--TODO match the purple theme-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Playlist"
+            android:id="@+id/section_header_tv"
+            android:textSize="14sp"
+            android:background="#ffffffff"
+            android:textColor="@color/purple_light"
+            android:paddingLeft="8dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:textStyle="bold|normal"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:id="@+id/splash_logo_sync_ring"
+            android:background="@color/purple_light" />
+
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tableRow">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/dialog_cancel"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.5" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create"
+            android:id="@+id/dialog_create"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.5" />
+    </TableRow>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_playlist_edittext"
+        android:layout_above="@+id/tableRow"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="8dp"
+        android:hint="Playlist name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout2"
+        android:layout_above="@+id/new_playlist_edittext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Create PlayList"
+            android:id="@+id/playlist_song_count_tv"
+            android:textSize="14sp"
+            android:background="#ffffffff"
+            android:textColor="@color/purple_light"
+            android:paddingLeft="8dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:textStyle="bold|normal" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:id="@+id/splash_logo"
+            android:background="@color/purple_light" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/existing_playlist_listview"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/linearLayout2" />
+
+</RelativeLayout>

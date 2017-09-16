@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/song_list_item"
+                android:background="#ffffffff">
+    <ImageView android:id="@+id/icon"
+        android:layout_width="24dp"
+        android:layout_height="64dp"
+        android:src="@drawable/grabber"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/now_playing_view"
+        android:layout_alignEnd="@+id/now_playing_view"
+        android:paddingLeft="8dp" />
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/album_art_iv"
+        android:src="@drawable/default_album_art"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:id="@+id/song_title"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/album_art_iv"
+        android:ellipsize="end"
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="2dp"
+        android:singleLine="true"
+        android:layout_toLeftOf="@+id/expanded_options_b"
+        android:layout_marginLeft="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:id="@+id/song_artist"
+        android:layout_below="@+id/song_title"
+        android:layout_toRightOf="@+id/album_art_iv"
+        android:textSize="12sp"
+        android:layout_toLeftOf="@+id/expanded_options_b"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="#ff707070"
+        android:layout_marginLeft="8dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:id="@+id/expanded_options_b"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/ic_menu_overflow_dark_normal" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/album_art_iv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="4dp"
+        android:background="#ffe1e1e1"
+        android:id="@+id/now_playing_view"
+        android:padding="4dp"
+        android:visibility="gone">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/twitter_connect_button"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/facebook_connect_button"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/twitter_connect_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/now_playing_previous"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/facebook_connect_button"/>
+    </RelativeLayout>
+</RelativeLayout>

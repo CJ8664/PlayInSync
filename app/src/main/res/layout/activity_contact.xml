@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#fff1f1f1"
+    android:paddingTop="56dp">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/contact_dp_iv"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@color/green_light"
+        android:layout_margin="16dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_name"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/contact_dp_iv"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold|normal"
+        android:textSize="18sp"
+        android:layout_toLeftOf="@+id/availability_iv"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/contact_last_played"
+        android:layout_below="@+id/contact_name"
+        android:layout_toRightOf="@+id/contact_dp_iv"
+        android:layout_marginRight="16dp"
+        android:layout_alignBottom="@+id/contact_dp_iv"
+        android:textSize="16sp"
+        android:textColor="#ff2a2a2a" />
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:id="@+id/availability_iv"
+        android:layout_alignTop="@+id/contact_name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp"
+        android:src="@android:drawable/presence_online"
+        android:layout_marginTop="4dp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/contact_dp_iv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#ffffffff" >
+
+        <TabHost
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tabhost_contact">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"/>
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <LinearLayout
+                        android:id="@+id/tab_content_contact_favourites"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical">
+
+                        <ListView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/listView" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="first"
+                            android:id="@+id/textView4" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tab_content_contact_recently_added"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical">
+
+                        <ListView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/listView2" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="second"
+                            android:id="@+id/textView5" />
+                    </LinearLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+    </ScrollView>
+
+</RelativeLayout>

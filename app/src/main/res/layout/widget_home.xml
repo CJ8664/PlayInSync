@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/widget_view"
+    android:background="#c8000000"
+    android:clickable="false">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/widget_album_art"
+        android:src="@color/blue_light"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/widget_song"
+        android:layout_toEndOf="@+id/widget_album_art"
+        android:layout_alignTop="@+id/widget_album_art"
+        android:layout_toRightOf="@+id/widget_album_art"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:freezesText="true"
+        android:singleLine="true"
+        android:duplicateParentState="true"
+        android:layout_marginRight="8dp"
+        android:textColor="#ffffffff"
+        android:textStyle="bold|normal">
+        <requestFocus android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:duplicateParentState="true"/>
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/widget_artist"
+        android:layout_below="@+id/widget_song"
+        android:layout_toRightOf="@+id/widget_album_art"
+        android:layout_toEndOf="@+id/widget_album_art"
+        android:textSize="12sp"
+        android:layout_toLeftOf="@+id/widget_previous"
+        android:layout_toStartOf="@+id/widget_previous"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="#ffffffff"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/widget_coming_up"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        android:layout_toEndOf="@+id/playlist_name_tv"
+        android:layout_toStartOf="@+id/widget_previous"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:freezesText="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColor="#ffffffff"
+        android:layout_toRightOf="@+id/playlist_name_tv"
+        android:layout_marginLeft="16dp"
+        android:layout_alignTop="@+id/playlist_name_tv"
+        android:layout_alignRight="@+id/widget_next"
+        android:layout_alignEnd="@+id/widget_next"
+        android:layout_marginRight="8dp"
+        android:duplicateParentState="true">
+        <requestFocus android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:duplicateParentState="true"/>
+    </TextView>
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:id="@+id/widget_next"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:drawable/ic_media_next"
+        android:layout_marginTop="26dp" />
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:id="@+id/widget_play_pause"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/widget_next"
+        android:layout_toStartOf="@+id/widget_next"
+        android:layout_marginTop="26dp"
+        android:background="@android:drawable/ic_media_play" />
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:id="@+id/widget_previous"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/widget_play_pause"
+        android:layout_toStartOf="@+id/widget_play_pause"
+        android:background="@android:drawable/ic_media_previous"
+        android:layout_marginTop="26dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coming up: "
+        android:id="@+id/playlist_name_tv"
+        android:layout_below="@+id/widget_album_art"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="2dp"
+        android:textColor="#ffffffff"
+        android:textStyle="bold|italic"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/splash_logo"
+        android:background="#ff696969"
+        android:layout_below="@+id/widget_album_art"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:id="@+id/imageView2"
+        android:background="#c8232323"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

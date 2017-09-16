@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <ImageView
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:id="@+id/tab_icon"
+        android:src="@drawable/song"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Songs"
+        android:id="@+id/tab_icon_description"
+        android:textSize="11sp"
+        android:layout_below="@+id/tab_icon"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffcccccc"
+        android:textStyle="bold|normal"/>
+</RelativeLayout>

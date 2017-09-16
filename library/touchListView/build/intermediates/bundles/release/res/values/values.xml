@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TouchListView"><attr format="dimension" name="normal_height"/><attr format="dimension" name="expanded_height"/><attr format="reference" name="grabber"/><attr format="color" name="dragndrop_background"/><attr name="remove_mode"><enum name="none" value="-1"/><enum name="fling" value="0"/><enum name="slide" value="1"/><enum name="slideRight" value="1"/><enum name="slideLeft" value="2"/></attr></declare-styleable>
+</resources>

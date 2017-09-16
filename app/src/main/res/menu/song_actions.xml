@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/song_action_favourite"
+        android:title="Favourite"/>
+    <item android:id="@+id/song_action_add_to_playlist"
+        android:title="Add to playlist"/>
+    <item android:id="@+id/song_action_share"
+        android:title="Share"/>
+    <item android:id="@+id/song_action_post_on_facebook"
+        android:title="Post on Facebook"/>
+    <item android:id="@+id/song_action_post_on_twitter"
+        android:title="Post on Twitter"/>
+    <item android:id="@+id/song_action_tag_people"
+        android:title="Tag friends"/>
+</menu>
